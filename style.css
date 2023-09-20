@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 32px;
+}
+
+input[type="text"]{
+    outline: none!important;
+    position: relative;
+    transition: all .2s ease;
+}
+
+button{
+    width: 48px;
+    aspect-ratio: 1/1;
+    color: #fff;
+}
+
+.row .col img{
+    width: 300px;
+    aspect-ratio: 1/1.5;
+    object-fit: cover;
+    object-position: center center;
+}
